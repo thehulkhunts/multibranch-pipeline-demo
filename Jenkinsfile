@@ -5,7 +5,7 @@ pipeline {
     stages{
       stage("SCM"){
         steps{
-          git ''
+          git 'https://github.com/thehulkhunts/multibranch-pipeline-demo.git'
         }
       }
       stage('build'){
